@@ -1,0 +1,23 @@
+{
+    "nextId": 3,
+    "items": [
+        {
+            "id": 1,
+            "login": "admin",
+            "fullname": "Admin1",
+            "role": 1,
+            "registeredAt": "2020-08-21T19:14:18.842Z",
+            "avaUrl": "https://pisez.com/2019/05/tupye-odnoklassniki-superhity-pisca.html",
+            "isEnable": 0
+        },
+        {
+            "id": 2,
+            "login": "testUser",
+            "fullname": "User1",
+            "role": 0,
+            "registeredAt": "2019-09-21T19:14:18.842Z",
+            "avaUrl": "https://pisez.com/2018/05/tupye-odnoklassniki-uboynyy-pisec.html",
+            "isEnable": 0
+        }
+    ]
+}
