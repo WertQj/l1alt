@@ -128,10 +128,10 @@ function Update_Planet(input) {
 }
 
 function Add_Planet() {
-    const sat = readlineSync.question('Enter number of sats: ').trim;
-    const name = readlineSync.question('Enter planet name: ').trim;
-    const discoverer = readlineSync.question('Enter planet discoverer: ').trim;
-    const mass = readlineSync.question('Enter planet mass: ').trim;
+    const sat = readlineSync.question('Enter number of sats: ').trim();
+    const name = readlineSync.question('Enter planet name: ').trim();
+    const discoverer = readlineSync.question('Enter planet discoverer: ').trim();
+    const mass = readlineSync.question('Enter planet mass: ').trim();
     if (checkIfNumber(mass) == 0) {
         if (parseInt(mass) > 0) {
             Planet.mass = parseInt(mass);

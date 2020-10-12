@@ -10,7 +10,7 @@ class PlanetRepository {
     }
     addPlanet(planet) {
         this.storage.writeItems(planet);
-        return this.storage.nextId - 1;
+        return this.storage.nextId;
     }
 
     getPlanet() {

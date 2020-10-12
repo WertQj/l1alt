@@ -11,7 +11,7 @@ class JsonStorage {
     }
 
     get nextId() {
-        return this.readItems().nextId;
+        return this.readItems().id;
     }
 
     incrementNextId() {
@@ -28,6 +28,7 @@ class JsonStorage {
     }
 
     writeItems(items) {
+        console.log('items', items)
         fs.writeFileSync(
             this.filePath, 
             JSON.stringify(items, null, 4), 
